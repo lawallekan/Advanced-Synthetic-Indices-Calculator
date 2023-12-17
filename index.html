@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Synthetic Indices Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Advanced Synthetic Indices Calculator</h2>
+        <input type="number" id="entryPrice" placeholder="Entry Price">
+        <input type="number" id="stopLoss" placeholder="Stop Loss">
+        <input type="number" id="takeProfit" placeholder="Take Profit">
+        <input type="number" id="lotSize" placeholder="Lot Size">
+        <button onclick="calculateTrade()">Calculate</button>
+        <div class="result">
+            <div id="riskResult" class="red-text"></div>
+            <div id="profitResult" class="green-text"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
